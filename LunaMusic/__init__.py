@@ -7,11 +7,11 @@
 #
 # All rights reserved.
 
-from YukkiMusic.core.bot import YukkiBot
-from YukkiMusic.core.dir import dirr
-from YukkiMusic.core.git import git
-from YukkiMusic.core.userbot import Userbot
-from YukkiMusic.misc import dbb, heroku, sudo
+from LunaMusic.core.bot import YukkiBot
+from LunaMusic.core.dir import dirr
+from LunaMusic.core.git import git
+from LunaMusic.core.userbot import Userbot
+from LunaMusic.misc import dbb, heroku, sudo
 
 from .logging import LOGGER
 
