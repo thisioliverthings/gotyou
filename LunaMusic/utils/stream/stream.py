@@ -15,19 +15,19 @@ from pyrogram.types import InlineKeyboardMarkup
 
 import config
 from YukkiMusic import Carbon, YouTube, app
-from YukkiMusic.core.call import Yukki
-from YukkiMusic.misc import db
-from YukkiMusic.utils.database import (add_active_chat,
+from LunaMusic.core.call import Yukki
+from LunaMusic.misc import db
+from LunaMusic.utils.database import (add_active_chat,
                                        add_active_video_chat,
                                        is_active_chat,
                                        is_video_allowed, music_on)
-from YukkiMusic.utils.exceptions import AssistantErr
-from YukkiMusic.utils.inline.play import (stream_markup,
+from LunaMusic.utils.exceptions import AssistantErr
+from LunaMusic.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from YukkiMusic.utils.inline.playlist import close_markup
-from YukkiMusic.utils.pastebin import Yukkibin
-from YukkiMusic.utils.stream.queue import put_queue, put_queue_index
-from YukkiMusic.utils.thumbnails import gen_thumb
+from LunaMusic.utils.inline.playlist import close_markup
+from LunaMusic.utils.pastebin import Yukkibin
+from LunaMusic.utils.stream.queue import put_queue, put_queue_index
+from LunaMusic.utils.thumbnails import gen_thumb
 
 
 async def stream(
