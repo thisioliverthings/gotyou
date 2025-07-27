@@ -4,6 +4,7 @@ asyncio
 dnspython
 ffmpeg-python
 gitpython
+motor
 hachoir
 heroku3
 lyricsgenius
@@ -17,8 +18,7 @@ pyyaml==5.3.1
 requests
 speedtest-cli
 spotipy
-motor==3.3.1
-pymongo==4.3.3
+pymongo
 tgcrypto
 youtube-search
 youtube-search-python
