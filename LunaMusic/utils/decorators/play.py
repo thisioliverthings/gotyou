@@ -11,9 +11,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import PLAYLIST_IMG_URL, PRIVATE_BOT_MODE, adminlist
 from strings import get_string
-from YukkiMusic import YouTube, app
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.utils.database import (get_cmode, get_lang,
+from LunaMusic import YouTube, app
+from LunaMusic.misc import SUDOERS
+from LunaMusic.utils.database import (get_cmode, get_lang,
                                        get_playmode, get_playtype,
                                        is_active_chat,
                                        is_commanddelete_on,
