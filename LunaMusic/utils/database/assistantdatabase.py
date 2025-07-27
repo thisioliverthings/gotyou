@@ -31,7 +31,7 @@ async def get_client(assistant: int):
 
 
 async def set_assistant(chat_id):
-    from YukkiMusic.core.userbot import assistants
+    from LunaMusic.core.userbot import assistants
 
     ran_assistant = random.choice(assistants)
     assistantdict[chat_id] = ran_assistant
