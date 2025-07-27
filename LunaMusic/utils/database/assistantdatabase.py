@@ -9,8 +9,8 @@
 
 import random
 
-from YukkiMusic import userbot
-from YukkiMusic.core.mongo import mongodb
+from LunaMusic import userbot
+from LunaMusic.core.mongo import mongodb
 
 db = mongodb.assistants
 
