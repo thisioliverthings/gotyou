@@ -9,7 +9,7 @@
 
 from typing import Dict, List, Union
 
-fromLunaMusic.core.mongo import mongodb
+from LunaMusic.core.mongo import mongodb
 
 queriesdb = mongodb.queries
 userdb = mongodb.userstats
