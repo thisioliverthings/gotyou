@@ -7,7 +7,6 @@ gitpython
 hachoir
 heroku3
 lyricsgenius
-motor==2.5.1          # متوافق مع pymongo 3.12.3
 pillow==9.5.0
 psutil
 py-tgcalls==0.8.6
@@ -18,7 +17,8 @@ pyyaml==5.3.1
 requests
 speedtest-cli
 spotipy
-pymongo==3.12.3       # الإصدار المطلوب لتجنب الخطأ
+motor==3.3.1
+pymongo==4.3.3
 tgcrypto
 youtube-search
 youtube-search-python
